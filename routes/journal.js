@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express.Router()
-const testController = require('../controllers/test')
+const journalController = require('../controllers/journal')
 
-router.get('/', testController.getIndex)
+router.get('/', journalController.getIndex)
+
 
 
 // your in /test already you dont have to put /test first cause this route is already in it

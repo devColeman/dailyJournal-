@@ -2,6 +2,6 @@
 
 module.exports = {
     getIndex: (req,res)=> {
-        res.render('test.ejs')
+        res.render('journal.ejs')
     }
 }
